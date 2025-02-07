@@ -1,0 +1,32 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(117, 117, 114);
+}
+
+.container-satu {
+    display: flex;
+    background-color: rgb(206, 203, 203);
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.kolom-utama {
+    flex: 3; /*setting item*/
+    order: 2; /*pindah order*/
+}
+
+.sidebar-satu {
+    flex: 1;
+    order: 1;
+}
+
+.sidebar-dua {
+    flex: 1;
+    order: 3;
+}

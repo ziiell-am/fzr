@@ -1,0 +1,41 @@
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(30, 141, 64);
+    margin: 10px;
+} */
+
+/* .box-1 {
+    display: inline;
+}
+
+.box-blok {
+    display: block;
+}
+
+.box-inline-block {
+    display: inline-block;
+}
+
+.box-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    justify-content:center;
+    align-items: center;
+}
+
+.flexitem {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(30, 141, 64);
+    margin: 15px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Web Editor</title>
+    <style>
+      div {
+        margin: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registrasi Data</h1>
+
+    <h3>Biodata</h3>
+    <form action="" method="get">
+      <div>
+        <label for="text">Nama Lengkap</label>
+        <input type="text" name="text" id="text" />
+      </div>
+
+      <div>
+        <label for="number">Nomor Telepon</label>
+        <input type="number" name="number" id="number" />
+      </div>
+
+      <div>
+        <label for="datetime">Tempat/Tanggal Lahir</label>
+        <input
+          type="datetime-local"
+          name="datetime-local"
+          id="datetime-local"
+        />
+      </div>
+
+      <div>
+        <label for="radio">Jenis Kelamin</label>
+        <input type="radio" name="radio" id="radio" /><label for="radio"
+          >Laki Laki</label
+        >
+        <input type="radio" name="radio" id="radio" /><label for="radio"
+          >Perempuan</label
+        >
+      </div>
+
+      <h3>User account</h3>
+    <form action="" method="get">
+      <div>
+        <label for="text">Email</label>
+        <input type="text" name="text" id="text" />
+      </div>
+
+      <div>
+        <label for="number">Username</label>
+        <input type="number" name="number" id="number" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      
+      <div>
+        <label for="password">Konfirmasi Password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+
+      <h3>What You Have Learned?</h3>
+      <div>
+        <label for="checkbox"></label>
+        <input type="checkbox" name="checkbox" id="checkbox" /><label
+          for="checkbox"
+          >HTML</label
+        >
+        <input type="checkbox" name="checkbox" id="checkbox" /><label
+          for="checkbox"
+          >CSS</label
+        >
+        <input type="checkbox" name="checkbox" id="checkbox" /><label
+          for="checkbox"
+          >JavaScript</label
+        >
+      </div>
+
+      <h3>Daily Business</h3>
+      <div>
+        <label for="opt">Choose </label>
+        <select name="opt" id="opt">
+          <option value="1">Mahasiswa</option>
+          <option value="2">Pekerja</option>
+          <option value="3">Pengangguran</option>
+        </select>
+      </div>
+
+      <h3>Your CV</h3>
+      <div>
+        <label for="file">Choose File</label>
+        <input type="file" name="file" id="file" />
+      </div>
+
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
