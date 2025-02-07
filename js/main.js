@@ -83,3 +83,30 @@ function repeat_awoawowk() {
 }
 
 repeat_awoawowk()
+
+console.log("Hai ZeeyFx")
+
+// cara menambahkan Array
+const nick = ['ZeeyFx', 'ZiChain', 'CryZee']
+nick.push('ZiieLL')
+console.log(nick)
+
+// cara menghapus Array
+nick.pop()
+console.log(nick)
+
+// cara menambahkan array karakter pertama
+nick.unshift('Aefilrz')
+console.log(nick)
+
+// cara hapus array karakter pertama
+nick.shift()
+console.log(nick)
+
+// cara menggabungkan array jadi satu
+const text = nick.join()
+console.log(text)
+
+// cara membalik urutan array
+nick.reverse()
+console.log(nick)
