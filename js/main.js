@@ -54,3 +54,32 @@ function greeting_card() {
   
   add_number(1, 8)
   
+
+  // functionconsole.log("Hai ZeeyFx")
+
+let my_arr = ["ZeeyFx", "CryZee", "ZiChain"]
+
+console.log("Hello " + my_arr[0])
+my_arr.reverse()
+
+//cara menampilkan Array
+for (i=0; i< my_arr.length; i++) {
+  console.log(my_arr[i])
+}
+
+
+// pemanggilan array multidimensi
+let my_arr2 = ['muso', 'sop ikan', 'dra gon', ['rehan', 'musi', 'owow']]
+// console.table (my_arr2)
+
+console.log("Hello " + my_arr2[3][1])
+let ngaowk = my_arr2.reverse()
+console.log(ngaowk)
+
+function repeat_awoawowk() {
+  while (!true) {
+    console.log("aowkawok")
+  }
+}
+
+repeat_awoawowk()
