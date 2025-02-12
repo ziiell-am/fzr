@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
-        <div class="input">
+
+        <!-- Register -->
+        <div class="register" id="register">
+            <input type="email" placeholder="Email" id="Email"> <br> <br>
+            <input type="text" placeholder="Username" id="Username-register"> <br> <br>
+            <input type="password" placeholder="Password" id="Password-register"> <br> <br>
+        </div>
+
+        <!-- Login -->
+        <div class="login" id="login">
             <input type="text" placeholder="Username" id="Username"> <br> <br>
             <input type="password" placeholder="Password" id="Password"> <br> <br>
         </div>
-        <button onclick="onLogin()" id="login">Login</button>
-        <button onclick="onLogout()" id="logout">Logout</button>
-        
-        <h1 id="ZeeyFx">ZeeyFx</h1>
+
+        <!-- Button -->
+        <div class=" buttons">
+            <button onclick="onLogin()" id="loginbtn">Login</button>
+            <button onclick="onLogout()" id="logoutbtn">Logout</button>
+            <button onclick="onRegister()" id="registerbtn">Register</button>
+        </div>
+
+        <!-- TAMPILAN -->
+        <h1 id="ZeeyFx">Login Success</h1>
         <h1 id="try">Try Again</h1>
-        <script src="main.js"></script>
+        <script src="tugas.js"></script>
     </div>
 </body>
+
 </html>
